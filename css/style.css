@@ -164,3 +164,133 @@ nav{
         height: 50px;
     }
 }
+
+.section-howtoplay {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    margin-top: 56px;
+}
+.article-howto {
+    width: 654px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+
+
+    h3{
+        font-family: "RobotoCondensed-Bold";
+        font-size: 64px;
+        color: var(--black-14);
+    }
+    p{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+        color: var(--black-14);
+
+    }
+
+}
+.steps-list{
+    width: 1099px;
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+    align-self: center;
+}
+.article-steps {
+    width: 1099px;
+    display: flex;
+    flex-direction: row;
+    font-family: "RobotoCondensed-Regular";
+    color: var(--black-0);
+    font-size: 28px;
+    gap: 32px;
+}
+
+.section-helpus {
+    display: flex;
+    width: 1167px;
+    justify-self: center;
+
+}
+.article-helpus {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    h3{
+        font-family: "RobotoCondensed-Bold";
+        color: var(--black-0);
+        font-size: 72px;
+    }
+    p{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+        color: var(--black-0);
+    }
+
+}
+.article-donate {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    button{
+        align-self: center;
+        width: 282px;
+        height: 57px;
+        background-color: var(--black-0);
+        color: var(--white-f);
+        font-size: 36px;
+        font-family: "RobotoCondensed-Bold";
+        border-style: none;
+        border-radius: 36px;
+    }
+
+}
+
+.section-aboutUs {
+    display: flex;
+    width: 1160px;
+    justify-self: center; 
+
+    h3{
+        font-family: "RobotoCondensed-Bold";
+        color: var(--black-0);
+        font-size: 72px;
+    }
+    p{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+        color: var(--black-0);
+    }
+}
+.article-aboutUs{
+    display: flex;
+    flex-direction: column;
+}
+.article-aboutUs p:nth-child(2){
+    margin-top: 69px;
+}
+.article-aboutUs p:last-child{
+    margin-top: 40px;
+}
+.aqua2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3{
+        font-family: "RobotoCondensed-Regular";
+        font-size: 96px;
+    }
+}
+.imgdiv{
+    margin-top: 12px;
+}
+
+.article-blindPeople{
+    margin-top: 115px;
+}
