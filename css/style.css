@@ -93,3 +93,74 @@ nav{
     width: 35px;
     height: 35px;
 }
+
+.section-beginning {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.article-crae {
+    height: 592px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 62px;
+    justify-content: space-between;
+    img{
+        width: 707px;
+        height: 391px;
+    }
+    h2{
+        font-family: "RobotoCondensed-Regular";
+        color: var(--black-14);
+        font-size: 56.4px;
+    }
+    p{
+        width: 685px;
+        font-family: "RobotoCondensed-Regular";
+        color: var(--black-14);
+        font-size: 26px;
+    }
+}
+
+.article-buy{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 135px; */
+    /* gap: 10px; */
+}
+.article-buy button{
+    width: 249px;
+    height: 59px;
+    background-color: var(--black-0);
+    border-style: none;
+    border-radius: 31.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    p{
+        color: var(--white-f);
+        font-size: 40px;
+        font-family: "RobotoCondensed-Bold";
+
+    }
+    img{
+        width: 36px;
+        height: 36px;
+    }
+
+}
+.article-socials {
+    margin-top: 328px;
+    width: 82px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
